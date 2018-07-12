@@ -1,6 +1,7 @@
 pragma solidity ^0.4.23;
 
-import "./ERC721TokenReceiver.sol";
+import "evolutionerc721/contracts/ERC721TokenReceiver.sol";
+
 
 contract ERC721Receiver is ERC721TokenReceiver{
 

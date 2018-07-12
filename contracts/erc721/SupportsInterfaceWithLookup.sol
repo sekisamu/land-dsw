@@ -1,7 +1,6 @@
 pragma solidity ^0.4.23;
 
-import "./ERC165.sol";
-
+import "evolutionerc721/contracts/ERC165.sol";
 
 /**
  * @title SupportsInterfaceWithLookup

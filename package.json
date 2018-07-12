@@ -1,0 +1,26 @@
+{
+  "name": "land",
+  "version": "1.0.0",
+  "description": "simple land contracts for evolution land",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "evolutionerc721": "^1.0.0",
+    "openzeppelin-solidity": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hammeWang/land.git"
+  },
+  "author": "hammeWang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hammeWang/land/issues"
+  },
+  "homepage": "https://github.com/hammeWang/land#readme"
+}
