@@ -1,11 +1,12 @@
 pragma solidity ^0.4.23;
 
 import "./SupportsInterfaceWithLookup.sol";
-import "./ERC721Basic.sol";
+import "evolutionerc721/contracts/ERC721.sol";
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 import "openzeppelin-solidity/contracts/AddressUtils.sol";
 
-contract ERC721BasicToken is SupportsInterfaceWithLookup, ERC721Basic{
+
+contract ERC721BasicToken is SupportsInterfaceWithLookup, ERC721{
 
     bytes4 private constant InterfaceId_ERC721 = 0x80ac58cd;
     /*

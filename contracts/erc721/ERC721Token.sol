@@ -1,9 +1,11 @@
 pragma solidity ^0.4.23;
 
 import "./ERC721BasicToken.sol";
-import "./ERC721.sol";
+import "evolutionerc721/contracts/ERC721Enumerable.sol";
+import "evolutionerc721/contracts/ERC721Metadata.sol";
 
-contract ERC721Token is ERC721BasicToken, ERC721{
+
+contract ERC721Token is ERC721BasicToken,ERC721Enumerable, ERC721Metadata{
 
     bytes4 private constant InterfaceId_ERC721Enumerable = 0x780e9d63;
     /**
